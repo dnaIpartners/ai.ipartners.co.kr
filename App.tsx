@@ -60,7 +60,7 @@ const App: React.FC = () => {
 
   // Determine if the current page has a dark background to adjust Navbar color
   // Added 'about' to isDarkPage as per redesign
-  const isDarkPage = currentPage === 'careers' || currentPage === 'project-detail' || currentPage === 'solution-detail' || currentPage === 'about';
+  const isDarkPage = currentPage === 'careers' || currentPage === 'project-detail' || currentPage === 'solution-detail';
 
   // Helper to generate back button label based on previous page
   const getBackLabel = (page: PageType) => {
